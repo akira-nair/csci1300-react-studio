@@ -1,7 +1,28 @@
 /* Add styling for your page here */
 
-.App {
+.double-col{
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+}
 
+.left-col{
+    width: 70%;
+    padding: 1%;
+}
+
+.right-col{
+    width: 30%;
+    padding: 1%;
+}
+
+.App {
+    background-color: #373737;
+
+}
+
+.h1{
+    color: white;
 }
 
 .BakeryItem {
